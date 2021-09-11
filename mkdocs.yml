@@ -10,3 +10,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.superfences
   - pymdownx.snippets
+nav:
+- Introduction: index.md
+- Creating your first comment: creating-your-first-comment.md
+- Nested comments: nested-comments.md
+- Registering users: registering-users.md
+- Comment with an user: create-comment-with-user.md
