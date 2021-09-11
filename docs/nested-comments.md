@@ -76,4 +76,4 @@ We get the following response:
 ]
 ```
 
-Both comments are nested!
+Both comments are nested! We can repeat this process for get deeper comments on the tree. The maximum depth of the comments tree is 10 for now, but you can use less depth than the supported, in fact the nesting is optional, you can have an application that only supports zero, one or two levels of nesting.
