@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  headless-cms-docs:
+    build: .
+    image: headless-cms-docs
+    ports:
+      - 8081:8000
+    volumes:
+      - .:/application
+    container_name: headless-cms-docs
