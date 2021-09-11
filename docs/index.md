@@ -25,3 +25,13 @@ Our API is available in RapidAPI, you can subscribe to the free limited plan for
     If you copy paste the curl request, remember to insert the access token.
 
 Congratulations, you are ready to use the API!
+
+## URL of the API
+
+The current URL of the API is a subdomain the RapidAPI service:
+
+```
+https://headless-comments-management-system.p.rapidapi.com/
+```
+
+All the API routes are exposed on that subdomain.
