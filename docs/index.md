@@ -9,6 +9,8 @@ This Headless Comments Management System (Headless CMS for the friends, what a c
 
 Our API is available in RapidAPI, you can subscribe to the free limited plan for play around with it.
 
+## Target audience
+
 ## Quickstart
 
 1. Register in [RapidAPI](https://rapidapi.com/hub)
@@ -35,3 +37,5 @@ https://headless-comments-management-system.p.rapidapi.com/
 ```
 
 All the API routes are exposed on that subdomain.
+
+## Intended usage of the API

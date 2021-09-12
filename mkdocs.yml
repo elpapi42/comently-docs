@@ -17,3 +17,4 @@ nav:
 - Registering users: registering-users.md
 - Comment with an user: create-comment-with-user.md
 - List and retrieve comments: list-and-retrieve-comments.md
+- Update a comment: update-a-comment.md
