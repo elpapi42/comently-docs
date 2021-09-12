@@ -4,7 +4,7 @@ First of all, you need to register an user!
 
 ```bash
 curl --request POST \
---url https://headless-comments-management-system.p.rapidapi.com/users \
+--url https://comently.p.rapidapi.com/users \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "user_id": "123456789",

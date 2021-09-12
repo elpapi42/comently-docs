@@ -4,7 +4,7 @@ With the last explanation we have enought knowledge to create our first comment!
 
 ```bash
 curl --request POST \
---url https://headless-comments-management-system.p.rapidapi.com/comments \
+--url https://comently.p.rapidapi.com/comments \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Test comment!!",
@@ -32,7 +32,7 @@ If you want to see the comment you just created, you can make this request:
 
 ```bash
 curl --request GET \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments?reference_id=test-reference-id' \
+--url 'https://comently.p.rapidapi.com/comments?reference_id=test-reference-id' \
 --header 'x-rapidapi-key: <your-token>'
 ```
 

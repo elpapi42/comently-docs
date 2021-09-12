@@ -4,7 +4,7 @@ Lets do it! it is really easy! it is the same request for create a comment, but 
 
 ```bash
 curl --request POST \
---url https://headless-comments-management-system.p.rapidapi.com/comments \
+--url https://comently.p.rapidapi.com/comments \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Test comment!!",
@@ -30,7 +30,7 @@ So, we extract the comment id from the response, in this case it is `71e2360a-0d
 
 ```bash
 curl --request POST \
---url https://headless-comments-management-system.p.rapidapi.com/comments \
+--url https://comently.p.rapidapi.com/comments \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Nested comment!!",
@@ -44,7 +44,7 @@ Now if we fetch by `reference_id`:
 ```bash
 curl --request GET \
 curl --request GET \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments?reference_id=test-reference-id' \
+--url 'https://comently.p.rapidapi.com/comments?reference_id=test-reference-id' \
 --header 'x-rapidapi-key: <your-token>'
 ```
 

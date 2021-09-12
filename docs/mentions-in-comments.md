@@ -4,7 +4,7 @@ First of all, for a @mention to be recognized it is requried that the mentioned 
 
 ```bash
 curl --request POST \
---url 'https://headless-comments-management-system.p.rapidapi.com/users' \
+--url 'https://comently.p.rapidapi.com/users' \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "user_id": "987654321",
@@ -16,7 +16,7 @@ Now we have our user registered, lets create the comment:
 
 ```bash
 curl --request POST \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments' \
+--url 'https://comently.p.rapidapi.com/comments' \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Hello @olbert!",

@@ -2,7 +2,7 @@ Usually users wants to update the comments they write, lets do that with out API
 
 ```bash
 curl --request POST \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments' \
+--url 'https://comently.p.rapidapi.com/comments' \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Test comment!!",
@@ -32,7 +32,7 @@ Now lets update the comment, we take the id of the comment we created and use it
 
 ```bash
 curl --request PATCH \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments/30503b9e-679e-412b-a070-bc3e82f8f36c' \
+--url 'https://comently.p.rapidapi.com/comments/30503b9e-679e-412b-a070-bc3e82f8f36c' \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Updated comment!!"

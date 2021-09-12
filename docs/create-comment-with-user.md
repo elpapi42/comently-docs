@@ -2,7 +2,7 @@ Now we will create a comment that was writen by an user, in the previous chapter
 
 ```bash
 curl --request POST \
---url https://headless-comments-management-system.p.rapidapi.com/comments \
+--url https://comently.p.rapidapi.com/comments \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Test comment!!",

@@ -2,7 +2,7 @@ For delete a comment it is very similar to update a comment, lets first create t
 
 ```bash
 curl --request POST \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments' \
+--url 'https://comently.p.rapidapi.com/comments' \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Test comment!!",
@@ -32,7 +32,7 @@ Then we just call the following endpoint to delete the comment, iserting the com
 
 ```bash
 curl --request DELETE \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments/47003b9e-679e-412b-a070-bc3e82f8f890' \
+--url 'https://comently.p.rapidapi.com/comments/47003b9e-679e-412b-a070-bc3e82f8f890' \
 --header 'x-rapidapi-key: <your-token>' \
 ```
 

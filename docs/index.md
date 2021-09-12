@@ -20,14 +20,14 @@ You can have a better overview by visiting the [Intended usage of the API](inten
 ## Quickstart
 
 1. Register in [RapidAPI](https://rapidapi.com/hub)
-2. Go to the [API home page](https://rapidapi.com/elpapi42/api/headless-comments-management-system/)
+2. Go to the [API home page](https://rapidapi.com/elpapi42/api/comently)
 3. Subscribe to the free plan
 4. Get your access token
     * From the [Developers Dashboard](https://rapidapi.com/developer/dashboard), select the default aplication (or you desired one) and go to security tab, then create or reveal the key.
 5. Use the key to make a request to the API
     ```bash
     curl --request GET \
-    --url 'https://headless-comments-management-system.p.rapidapi.com/comments?reference_id=ref' \
+    --url 'https://comently.p.rapidapi.com/comments?reference_id=ref' \
     --header 'x-rapidapi-key: <insert-your-token-here>'
     ```
     If you copy paste the curl request, remember to insert the access token.
@@ -39,7 +39,7 @@ Congratulations, you are ready to use the API!
 The current URL of the API is a subdomain the RapidAPI service:
 
 ```
-https://headless-comments-management-system.p.rapidapi.com/
+https://comently.p.rapidapi.com/
 ```
 
 All the API routes are exposed on that subdomain.

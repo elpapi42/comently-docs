@@ -4,7 +4,7 @@ We already used the endpoint for list comments a few times, but now lets go deep
 
 ```bash
 curl --request GET \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments?reference_id=test-reference-id' \
+--url 'https://comently.p.rapidapi.com/comments?reference_id=test-reference-id' \
 --header 'x-rapidapi-key: <your-token>'
 ```
 
@@ -16,7 +16,7 @@ In the future we will support filtering by other params, like `user_id` or `crea
 
 ```bash
 curl --request GET \
---url 'https://headless-comments-management-system.p.rapidapi.com/comments/<comment-id>' \
+--url 'https://comently.p.rapidapi.com/comments/<comment-id>' \
 --header 'x-rapidapi-key: <your-token>'
 ```
 
