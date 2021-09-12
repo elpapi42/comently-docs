@@ -1,4 +1,4 @@
-Now we will create a comment that was writen by an user, in the previous chapter we registered a user called "whitman" with an id "123456789", let create a comment with the user whitman:
+Now we will create a comment that was writen by an user, in the previous chapter we registered a user called `whitman` with an id `123456789`, lets create a comment with the user whitman:
 
 ```bash
 curl --request POST \

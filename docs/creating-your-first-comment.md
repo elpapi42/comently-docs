@@ -32,7 +32,6 @@ If you want to see the comment you just created, you can make this request:
 
 ```bash
 curl --request GET \
-curl --request GET \
 --url 'https://headless-comments-management-system.p.rapidapi.com/comments?reference_id=test-reference-id' \
 --header 'x-rapidapi-key: <your-token>'
 ```
