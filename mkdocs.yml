@@ -19,3 +19,4 @@ nav:
 - List and retrieve comments: list-and-retrieve-comments.md
 - Update a comment: update-a-comment.md
 - Delete a comment: delete-a-comment.md
+- Intended usage of the API: intended-usage-of-the-api.md
