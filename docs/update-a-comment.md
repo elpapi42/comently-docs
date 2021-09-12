@@ -2,7 +2,7 @@ Usually users wants to update the comments they write, lets do that with out API
 
 ```bash
 curl --request POST \
---url https://headless-comments-management-system.p.rapidapi.com/comments \
+--url 'https://headless-comments-management-system.p.rapidapi.com/comments' \
 --header 'x-rapidapi-key: <your-token>' \
 --data '{
     "body": "Test comment!!",
@@ -58,9 +58,9 @@ You only need to send the new body for the comment! Now our comment is updated:
 
 ## Update permissions
 
-It is probable that you want to be sure only creators of the comments can update them, our API does not support managing permissions, you are at charge of that. But you can do that easily from your Backend:
+It is probable that you want to ensure only creators of the comments can update them, our API does not support managing permissions, you are at charge of that. But you it is easy to do from your Backend:
 
-1. When an user want to update a comment, you fetch the comment from our API using the endpoint described in [List and retrieve comments](list-and-retrieve-comments.md)
+1. When an user request to update a comment, you fetch the comment from our API using the endpoint described in [List and retrieve comments](list-and-retrieve-comments.md)
 2. You check if the user requesting the change is user in the comment retrieved in the previous step
 3. If the user is the creator of the comment, you can update the comment
 4. If the user is not the creator of the comment, you return back a permissions error
