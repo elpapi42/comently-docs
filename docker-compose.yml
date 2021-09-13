@@ -1,10 +1,10 @@
 version: "3.7"
 services:
-  headless-cms-docs:
+  comently-docs:
     build: .
-    image: headless-cms-docs
+    image: comently-docs
     ports:
       - 8081:8000
     volumes:
       - .:/application
-    container_name: headless-cms-docs
+    container_name: comently-docs
