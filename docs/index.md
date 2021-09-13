@@ -1,4 +1,4 @@
-This Headless Comments Management System (Headless CMS for the friends, what a coincidence!) is basically a platform that provides you with reddit-like commenting system as a service, just like Disqus, but without a Frontend, just the API, that can be integrated seamlessly with your existing Backend.
+Comently is a Headless Comments Management System (Headless CMS for the friends, what a coincidence!), is basically a platform that provides you with reddit-like commenting system as a service, just like Disqus, but without a Frontend, just the API, that can be integrated seamlessly with your existing Backend.
 
 ## Key features
 

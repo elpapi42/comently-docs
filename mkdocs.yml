@@ -1,4 +1,4 @@
-site_name: Headless Comments Management System
+site_name: Comently
 theme:
   name: material
 markdown_extensions:
