@@ -21,3 +21,11 @@ nav:
 - Delete a comment: delete-a-comment.md
 - Mentions in comments: mentions-in-comments.md
 - Intended usage of the API: intended-usage-of-the-api.md
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/whitmanb/
+      name: elpapi42 on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/elpapi42
+      name: elpapi42 on GitHub
